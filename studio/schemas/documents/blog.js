@@ -31,6 +31,16 @@ export default {
       name: "coverImage",
       type: "customImage",
     },
+    {
+      title: "Excerpt",
+      name: "excerpt",
+      type: "excerptText",
+    },
+    {
+      title: "Block body",
+      name: "body",
+      type: "bodyText",
+    },
   ],
   preview: {
     select: {

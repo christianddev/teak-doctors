@@ -8,8 +8,10 @@ import blog from "./documents/blog"
 import author from "./documents/author"
 
 // Custom objects
-
 import customImage from "./objects/customImage"
+import bodyText from "./objects/bodyText"
+import customCode from "./objects/customCode"
+import excerptText from "./objects/excerptText"
 
 // Then we give our schema to the builder and provide the result to Sanity
 export default createSchema({
@@ -17,5 +19,12 @@ export default createSchema({
   name: "default",
   // Then proceed to concatenate our document type
   // to the ones provided by any plugins that are installed
-  types: schemaTypes.concat([blog, author, customImage]),
+  types: schemaTypes.concat([
+    blog,
+    author,
+    customImage,
+    bodyText,
+    customCode,
+    excerptText,
+  ]),
 })

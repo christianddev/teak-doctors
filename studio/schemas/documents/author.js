@@ -1,4 +1,5 @@
 import { MdPerson } from "react-icons/md"
+
 export default {
   title: "Author",
   name: "author",
@@ -19,5 +20,24 @@ export default {
         maxLength: 96,
       },
     },
+    {
+      title: "Profile image",
+      name: "profileImage",
+      type: "customImage",
+    },
   ],
+  preview: {
+    select: {
+      title: "name",
+      image: "profileImage",
+      slug: "slug",
+    },
+    prepare({ title, image, slug }) {
+      return {
+        title,
+        media: image,
+        subtitle: slug?.current,
+      }
+    },
+  },
 }
