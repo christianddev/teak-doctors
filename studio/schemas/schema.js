@@ -7,6 +7,7 @@ import schemaTypes from "all:part:@sanity/base/schema-type"
 import blog from "./documents/blog"
 import author from "./documents/author"
 import category from "./documents/category"
+import featured from "./documents/featured"
 
 // Custom objects
 import customImage from "./objects/customImage"
@@ -25,6 +26,7 @@ export default createSchema({
     blog,
     author,
     category,
+    featured,
     // Objects
     customImage,
     bodyText,
