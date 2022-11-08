@@ -11,9 +11,9 @@ import featured from "./documents/featured"
 
 // Custom objects
 import customImage from "./objects/customImage"
-import bodyText from "./objects/bodyText"
+import richText from "./objects/richText"
 import customCode from "./objects/customCode"
-import excerptText from "./objects/excerptText"
+import normalText from "./objects/normalText"
 
 // Then we give our schema to the builder and provide the result to Sanity
 export default createSchema({
@@ -29,8 +29,8 @@ export default createSchema({
     featured,
     // Objects
     customImage,
-    bodyText,
+    richText,
     customCode,
-    excerptText,
+    normalText,
   ]),
 })
