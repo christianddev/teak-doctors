@@ -4,6 +4,11 @@ require("dotenv").config({
 })
 
 module.exports = {
+  siteMetadata: {
+    title: "Luxwook",
+    siteUrl: "https://luxwook.netlify.app",
+    description: "Luxwood"
+  },
   plugins: [
     {
       resolve: "gatsby-source-sanity",
