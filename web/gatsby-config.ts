@@ -11,7 +11,7 @@ const config: GatsbyConfig = {
     description: "Luxwood",
   },
   plugins: [
-    // `gatsby-plugin-sass`,
+    `gatsby-plugin-sass`,
   ],
 }
 
