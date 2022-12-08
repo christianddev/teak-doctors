@@ -1,5 +1,4 @@
 node_modules/
 .cache/
 public
-.env
-yarn.lock
+src/gatsby-types.d.ts
