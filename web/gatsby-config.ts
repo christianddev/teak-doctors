@@ -12,8 +12,8 @@ const config: GatsbyConfig = {
   plugins: [{
     resolve: 'gatsby-source-sanity',
     options: {
-      "projectId": "testProjectId",
-      "dataset": ""
+      "projectId": "pe0si3rr",
+      "dataset": "production"
     }
   }, "gatsby-plugin-image", "gatsby-plugin-sharp", "gatsby-transformer-sharp", "gatsby-plugin-sass", {
     resolve: 'gatsby-plugin-google-analytics',
