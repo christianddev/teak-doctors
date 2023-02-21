@@ -1314,9 +1314,9 @@
     lodash "^4.17.21"
 
 "@sanity/cli@^2.29.3":
-  version "2.35.0"
-  resolved "https://registry.yarnpkg.com/@sanity/cli/-/cli-2.35.0.tgz#9773c6a5c46c55274cf0cbf1e721e3a419043a83"
-  integrity sha512-btMoU2W5PrvQL0J4RpA7tvZlo+27fY/aekU4SOa5DWV7nlUc7lMxljCbWdhkX7cQxR1wY/uKcgZeMPX+BPwaWg==
+  version "2.35.3"
+  resolved "https://registry.yarnpkg.com/@sanity/cli/-/cli-2.35.3.tgz#fed22b9884edac89b49a1b259177207434c1cbf1"
+  integrity sha512-4itM8oi+K/94NA4qYm77o+qFjKlox3IaUhEtTUoh/Kj40Co6JGjN8YLg8ePCF9vjhUHNET+nPuYyZjA5m2t84A==
 
 "@sanity/client@^3.3.3":
   version "3.4.1"
