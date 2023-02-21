@@ -4,11 +4,11 @@ import Layout from "../components/Layout"
 const IndexPage: React.FC<PageProps> = () => {
   return (
     <Layout>
-      <h1>LuxWook</h1>
+      <h1>teakDoctors</h1>
     </Layout>
   )
 }
 
 export default IndexPage
 
-export const Head: HeadFC = () => <title>LuxWook</title>
+export const Head: HeadFC = () => <title>teakDoctors</title>
