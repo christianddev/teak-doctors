@@ -2,7 +2,7 @@ import S from "@sanity/desk-tool/structure-builder"
 import { MdStar } from "react-icons/md"
 function SidebarList() {
   return S.list()
-    .title("DemoBlogTitle")
+    .title("Blog")
     .items([
       S.listItem()
         .title("Featured")

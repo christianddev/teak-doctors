@@ -1,5 +1,5 @@
 {
-  "name": "homepagestarter",
+  "name": "teak-doctors-blog",
   "private": true,
   "version": "1.0.0",
   "description": "",
@@ -10,6 +10,7 @@
     "build": "sanity build ../static/__sanity",
     "deploy": "sanity deploy",
     "graphql": "sanity graphql deploy",
+    "sanity-login": "sanity login",
     "sanity-init": "sanity init",
     "sanity-import": "sanity dataset import ../scripts/content.tar.gz production",
     "sanity-export": "sanity dataset export production ../scripts/content.tar.gz"
