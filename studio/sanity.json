@@ -2,10 +2,11 @@
   "root": true,
   "api": {
     "dataset": "production",
-    "projectId": "pe0si3rr"
+    "projectId": "u7q93663"
   },
   "project": {
-    "name": "homepage-starter"
+    "name": "teak-doctors",
+    "title": "teak-doctors"
   },
   "plugins": [
     "@sanity/base",

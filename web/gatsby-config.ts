@@ -2,8 +2,8 @@ import type { GatsbyConfig } from "gatsby"
 
 const config: GatsbyConfig = {
   siteMetadata: {
-    title: `Example TS`,
-    siteUrl: `https://www.yourdomain.tld`,
+    title: `Teak Doctors`,
+    siteUrl: `https://teak-doctors.netlify.app`,
   },
   // More easily incorporate content into your pages through automatic TypeScript type generation and better GraphQL IntelliSense.
   // If you use VSCode you can also use the GraphQL plugin
@@ -13,7 +13,7 @@ const config: GatsbyConfig = {
     {
       resolve: "gatsby-source-sanity",
       options: {
-        projectId: "pe0si3rr",
+        projectId: "u7q93663",
         dataset: "production",
       },
     },
