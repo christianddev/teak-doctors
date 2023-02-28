@@ -1,9 +1,9 @@
 import * as React from "react"
-
+import {title} from "./header.module.css"
 const Header = () => {
   return (
     <>
-      <h1>Header</h1>
+      <h1 className={title}>Header</h1>
     </>
   )
 }

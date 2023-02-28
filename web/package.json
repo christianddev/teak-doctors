@@ -1,8 +1,8 @@
 {
-  "name": "example-ts",
+  "name": "teak-doctors",
   "version": "1.0.0",
   "private": true,
-  "description": "example-ts",
+  "description": "Teak Doctors Site",
   "keywords": [
     "gatsby"
   ],
